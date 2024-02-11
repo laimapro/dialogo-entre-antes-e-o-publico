@@ -1,0 +1,42 @@
+header h1 {
+    background: url('../img/logo.png') left top no-repeat;
+    width: 462px;
+    height: 126px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+
+/* CAROUSEL */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+    background: transparent url('http://lorempixel.com/1600/500') center no-repeat;
+    background-size: cover; 
+}
+.carousel .item-1{background-image: url('http://lorempixel.com/1600/500/abstract')}
+.carousel .item-2{background-image: url('http://lorempixel.com/1600/500/fashion')}
+.carousel .item-3{background-image: url('http://lorempixel.com/1600/500/cats')}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+.links-rapidos img {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+}
